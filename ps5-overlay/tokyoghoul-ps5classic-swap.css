@@ -7,11 +7,14 @@
 
 @import url("https://justehcupcake.github.io/PS5_Display_Pics/PS5_Classic.css");
 
-/* DEBUG: wenn das sichtbar wird, lädt die CSS wirklich */
-.edit .controller { outline: 6px solid lime !important; }
+/* Debug: wenn du das siehst, ist die CSS aktiv */
+.controller { outline: 6px solid lime !important; }
 
-/* Base-Image wirklich auf den Controller zwingen (egal welche Skin-Klasse) */
-.edit .controller{
+/* Tokyo Ghoul Base erzwingen */
+.controller,
+.controller.ds4,
+.controller.ds5,
+.controller.dualsense {
   background-image: url("tokyoghoul_ds4_806x598.png") !important;
   background-repeat: no-repeat !important;
   background-size: 100% 100% !important;
