@@ -7,15 +7,13 @@
 
 @import url("https://justehcupcake.github.io/PS5_Display_Pics/PS5_Classic.css");
 
-/* Debug: wenn du das siehst, ist die CSS aktiv */
-.controller { outline: 6px solid lime !important; }
+/* Debug: wenn du das siehst, ist editcss aktiv */
+.edit .controller { outline: 6px solid lime !important; }
 
-/* Tokyo Ghoul Base erzwingen */
-.controller,
-.controller.ds4,
-.controller.ds5,
-.controller.dualsense {
-  background-image: url("tokyoghoul_ds4_806x598.png") !important;
+/* Tokyo Ghoul Base (ABSOLUTER LINK!) */
+.edit .controller{
+  background-image: url("https://ilyasnsir.github.io/controlleroverlay/ps5-overlay/tokyoghoul_ds4_806x598.png") !important;
   background-repeat: no-repeat !important;
   background-size: 100% 100% !important;
 }
+
