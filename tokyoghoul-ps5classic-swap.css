@@ -1,0 +1,21 @@
+/* Keep the PS5_Classic (justEhCupcake) edits, but swap ONLY the base image.
+   Put this CSS and the PNG in the SAME folder on your host.
+
+   URL example:
+   https://gamepadviewer.com/?p=1&s=5&editcss=https://<dein-host>/tokyoghoul-ps5classic-swap.css
+*/
+
+@import url("https://justehcupcake.github.io/PS5_Display_Pics/PS5_Classic.css");
+
+/* Debug: wenn du das siehst, ist die CSS aktiv */
+.controller { outline: 6px solid lime !important; }
+
+/* Tokyo Ghoul Base erzwingen */
+.controller,
+.controller.ds4,
+.controller.ds5,
+.controller.dualsense {
+  background-image: url("tokyoghoul_ds4_806x598.png") !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% 100% !important;
+}
