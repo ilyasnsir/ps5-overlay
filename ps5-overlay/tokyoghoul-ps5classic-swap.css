@@ -1,0 +1,15 @@
+/* Keep the PS5_Classic (justEhCupcake) edits, but swap ONLY the base image.
+   Put this CSS and the PNG in the SAME folder on your host.
+
+   URL example:
+   https://gamepadviewer.com/?p=1&s=5&editcss=https://<dein-host>/tokyoghoul-ps5classic-swap.css
+*/
+
+@import url("https://justehcupcake.github.io/PS5_Display_Pics/PS5_Classic.css");
+
+/* Swap the controller artwork (s=5 => DS4) */
+.edit .controller.ds4{
+  background: url("tokyoghoul_ds4_806x598.png") no-repeat !important;
+  width: 806px !important;
+  height: 598px !important;
+}
